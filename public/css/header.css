@@ -39,11 +39,6 @@
   }
 
 
-.nav-scroller .nav a:hover{
-    color: #f95560;
-    text-decoration: underline;
-}
-
 .isactive{
     color: #f95560;
     text-decoration: underline;
@@ -62,21 +57,30 @@
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
+
+  footer span{
+    color: #f95560;
+  }
 @media (min-width: 768px) {
     .display-4 {
         font-size: 3rem;
 
     }
+    a:hover{
+        color: #f95560;
+        text-decoration: underline;
+    }
 
-    .nav-scroller .nav a{
+    a{
         font-size: 18px;
+
     }
 
 }
 .branding{
     color: #f95560;
     font-weight: bold;
-    margin-top: 6rem;
+    /* margin-top: 6rem; */
     z-index: 33;
     position: relative;
 }
